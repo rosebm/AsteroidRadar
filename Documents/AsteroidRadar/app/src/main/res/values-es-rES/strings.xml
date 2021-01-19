@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Radar de Asteroides</string>
+
+    <string name="next_week_asteroids">Asteroides de la semana</string>
+    <string name="today_asteroids">Asteroides de hoy</string>
+    <string name="saved_asteroids">Asteroides guardados</string>
+    <string name="close_approach_data_title">Fecha de aproximación</string>
+    <string name="absolute_magnitude_title">Magnitud absoluta</string>
+    <string name="estimated_diameter_title">Diámetro estimado</string>
+    <string name="relative_velocity_title">Velocidad relativa</string>
+    <string name="distance_from_earth_title">Distancia desde la Tierra</string>
+    <string name="astronomical_unit_format">%f au</string>
+    <string name="km_unit_format">%f km</string>
+    <string name="km_s_unit_format">%f km/s</string>
+    <string name="image_of_the_day">Imagen del día</string>
+    <string name="astronomica_unit_explanation"> La unidad astronómica (au) es una unidad de longitud,
+        aproximadamente la distancia de la Tierra al Sol e igual a unos 150 millones de kilómetros (93 millones de millas).</string>
+    <string name="astronomical_unit_explanation_button">Definición de la unidad Astronóomica</string>
+    <string name="potentially_hazardous_asteroid_image">Imagen de asteroide potencialmente peligroso</string>
+    <string name="not_hazardous_asteroid_image">Imagen de asteroide no perligroso</string>
+    <string name="this_is_nasa_s_picture_of_day_showing_nothing_yet">No hay aún imagen del día de la NASA</string>
+    <string name="nasa_picture_of_day_content_description_format">Foto del día de la NASA: %s</string>
+    <string name="main_cannot_display_video">No se puede mostrar video</string>
+    <string name="main_got_asteroids">Tengo asteroides!</string>
+    <string name="main_error_fetching_list">Error obteniendo la lista de asteroides</string>
+    <string name="main_got_image_day">Tengo la imagen de día!</string>
+    <string name="more_information">Más información</string>
+    <string name="hazard_indicator_image">Icono indicador de peligrosidad</string>
+    <string name="selected_asteroid_image">Imagen del asteroide seleccionado</string>
+    <string name="nasa_s_image_day">Imagen de la NASA del día</string>
+</resources>
