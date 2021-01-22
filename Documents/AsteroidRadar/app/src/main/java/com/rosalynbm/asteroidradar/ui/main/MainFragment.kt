@@ -52,8 +52,7 @@ class MainFragment : Fragment() {
 
         mainViewModel.getImageOfDay()
         setupRecurringWork()
-        // mainViewModel.getAsteroids()
-        mainViewModel.getAsteroidsFromDB()
+        mainViewModel.getAsteroids()
 
         mainViewModel.onImageReady().observe(viewLifecycleOwner, Observer {
             //loadImage("https://apod.nasa.gov/apod/image/2012/GeminidMeteorsStePelle1024.jpg")

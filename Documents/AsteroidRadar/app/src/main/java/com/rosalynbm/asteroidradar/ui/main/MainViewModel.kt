@@ -45,6 +45,20 @@ class MainViewModel(application: Application,
         navigateToScreenLiveData.value = item
     }
 
+    fun getAsteroids() {
+        CompositeDisposable(
+                repository.getAsteroids(Constants.API_KEY)
+                        .subscribeOn(AndroidSchedulers.mainThread())
+                        .subscribe({
+                            asteroidListLiveData.postValue(it)
+                            getImageOfDay()
+                            Timber.d(context.getString(R.string.main_got_asteroids))
+                        },{
+                            Timber.e(context.getString(R.string.main_error_fetching_list))
+                        })
+        )
+    }
+
     fun getAsteroidsFromRemote() {
         CompositeDisposable(
             repository.getAsteroidsFromRemote(Constants.API_KEY)
